@@ -1,0 +1,42 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Logo Bola Marcada" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "Logo Bola Marcada" [ref=e9]
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "CRIAR CONTA" [level=1] [ref=e12]
+        - generic [ref=e13]:
+          - generic [ref=e14]:
+            - generic [ref=e15]: Nome
+            - textbox "Nome" [ref=e16]:
+              - /placeholder: ""
+          - generic [ref=e17]:
+            - generic [ref=e18]: E-mail
+            - textbox "E-mail E-mail" [ref=e19]:
+              - /placeholder: ""
+          - generic [ref=e20]:
+            - generic [ref=e21]: Senha
+            - textbox "Senha Senha" [ref=e22]:
+              - /placeholder: ""
+          - generic [ref=e23]:
+            - generic [ref=e24]: CPF
+            - textbox "CPF" [ref=e25]:
+              - /placeholder: ""
+          - button "CRIAR CONTA" [ref=e26] [cursor=pointer]
+      - generic [ref=e27]:
+        - heading "ENTRAR" [level=1] [ref=e28]
+        - generic [ref=e29]:
+          - generic [ref=e30]:
+            - generic [ref=e31]: E-mail
+            - textbox [ref=e32]: usuarioValido1@teste.com.br
+          - generic [ref=e33]:
+            - generic [ref=e34]: Senha
+            - textbox [ref=e35]: Pedro0901.
+          - button "ENTRAR" [active] [ref=e36] [cursor=pointer]
+    - paragraph [ref=e38]: "Erro: Email ou senha incorretos"
+  - alert [ref=e39]
+```

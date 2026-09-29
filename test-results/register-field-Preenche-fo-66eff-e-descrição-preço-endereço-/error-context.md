@@ -1,0 +1,136 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "Logo Bola Marcada" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Logo Bola Marcada" [ref=e7]
+      - link "CADASTRAR / ENTRAR" [ref=e10] [cursor=pointer]:
+        - /url: rotas/login
+  - main [ref=e11]:
+    - link [ref=e12] [cursor=pointer]:
+      - /url: /rotas/profile
+      - img [ref=e13]
+    - heading "Cadastrar Campo" [level=1] [ref=e15]
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - heading "Dados do Local" [level=2] [ref=e18]
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - generic [ref=e21]: Nome do Campo/Quadra
+            - 'textbox "Ex: Quadra do Parque" [ref=e22]'
+          - generic [ref=e23]:
+            - generic [ref=e24]: Endereço
+            - 'textbox "Ex: Rua das Flores, 123" [ref=e25]'
+          - generic [ref=e26]:
+            - generic [ref=e27]: Cidade
+            - 'textbox "Ex: São Paulo" [ref=e28]'
+          - generic [ref=e29]:
+            - generic [ref=e30]: Tipo de Esporte
+            - combobox "Tipo de Esporte" [ref=e31]:
+              - option "Selecione" [disabled] [selected]
+              - option "Futebol"
+              - option "Futsal"
+              - option "Vôlei"
+              - option "Basquete"
+              - option "Tênis"
+              - option "Beach Tennis"
+              - option "Padel"
+              - option "Outros"
+          - generic [ref=e32]:
+            - generic [ref=e33]: Descrição
+            - textbox "Descrição" [ref=e34]:
+              - /placeholder: Descreva as características do espaço, facilidades, etc.
+      - generic [ref=e36]:
+        - generic [ref=e37]: Imagens
+        - generic [ref=e39] [cursor=pointer]:
+          - img [ref=e40]
+          - paragraph [ref=e43]: Arraste e solte fotos aqui ou clique para selecionar
+          - paragraph [ref=e44]: Adicione fotos do seu espaço para atrair mais clientes.
+      - generic [ref=e46]:
+        - heading "Disponibilidade e Valores" [level=3] [ref=e47]
+        - table [ref=e49]:
+          - rowgroup [ref=e50]:
+            - row "Dia da Semana Aberto? Horário de Abertura Horário de Fechamento Preço por Hora" [ref=e51]:
+              - cell "Dia da Semana" [ref=e52]
+              - cell "Aberto?" [ref=e53]
+              - cell "Horário de Abertura" [ref=e54]
+              - cell "Horário de Fechamento" [ref=e55]
+              - cell "Preço por Hora" [ref=e56]
+          - rowgroup [ref=e57]:
+            - row "Segunda-feira" [ref=e58]:
+              - cell "Segunda-feira" [ref=e59]
+              - cell [ref=e60]:
+                - checkbox [checked] [ref=e61] [cursor=pointer]
+              - cell [ref=e62]:
+                - textbox [ref=e63] [cursor=pointer]
+              - cell [ref=e64]:
+                - textbox [ref=e65] [cursor=pointer]
+              - cell [ref=e66]:
+                - spinbutton [ref=e67] [cursor=pointer]
+            - row "Terça-feira" [ref=e68]:
+              - cell "Terça-feira" [ref=e69]
+              - cell [ref=e70]:
+                - checkbox [checked] [ref=e71] [cursor=pointer]
+              - cell [ref=e72]:
+                - textbox [ref=e73] [cursor=pointer]
+              - cell [ref=e74]:
+                - textbox [ref=e75] [cursor=pointer]
+              - cell [ref=e76]:
+                - spinbutton [ref=e77] [cursor=pointer]
+            - row "Quarta-feira" [ref=e78]:
+              - cell "Quarta-feira" [ref=e79]
+              - cell [ref=e80]:
+                - checkbox [checked] [ref=e81] [cursor=pointer]
+              - cell [ref=e82]:
+                - textbox [ref=e83] [cursor=pointer]
+              - cell [ref=e84]:
+                - textbox [ref=e85] [cursor=pointer]
+              - cell [ref=e86]:
+                - spinbutton [ref=e87] [cursor=pointer]
+            - row "Quinta-feira" [ref=e88]:
+              - cell "Quinta-feira" [ref=e89]
+              - cell [ref=e90]:
+                - checkbox [checked] [ref=e91] [cursor=pointer]
+              - cell [ref=e92]:
+                - textbox [ref=e93] [cursor=pointer]
+              - cell [ref=e94]:
+                - textbox [ref=e95] [cursor=pointer]
+              - cell [ref=e96]:
+                - spinbutton [ref=e97] [cursor=pointer]
+            - row "Sexta-feira" [ref=e98]:
+              - cell "Sexta-feira" [ref=e99]
+              - cell [ref=e100]:
+                - checkbox [checked] [ref=e101] [cursor=pointer]
+              - cell [ref=e102]:
+                - textbox [ref=e103] [cursor=pointer]
+              - cell [ref=e104]:
+                - textbox [ref=e105] [cursor=pointer]
+              - cell [ref=e106]:
+                - spinbutton [ref=e107] [cursor=pointer]
+            - row "Sábado" [ref=e108]:
+              - cell "Sábado" [ref=e109]
+              - cell [ref=e110]:
+                - checkbox [checked] [ref=e111] [cursor=pointer]
+              - cell [ref=e112]:
+                - textbox [ref=e113] [cursor=pointer]
+              - cell [ref=e114]:
+                - textbox [ref=e115] [cursor=pointer]
+              - cell [ref=e116]:
+                - spinbutton [ref=e117] [cursor=pointer]
+            - row "Domingo" [ref=e118]:
+              - cell "Domingo" [ref=e119]
+              - cell [ref=e120]:
+                - checkbox [checked] [ref=e121] [cursor=pointer]
+              - cell [ref=e122]:
+                - textbox [ref=e123] [cursor=pointer]
+              - cell [ref=e124]:
+                - textbox [ref=e125] [cursor=pointer]
+              - cell [ref=e126]:
+                - spinbutton [ref=e127] [cursor=pointer]
+      - generic [ref=e128]:
+        - button "Cancelar" [ref=e129] [cursor=pointer]
+        - button "Cadastrar Campo" [ref=e130] [cursor=pointer]
+```

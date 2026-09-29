@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e4]:
+        - link "Logo Bola Marcada" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "Logo Bola Marcada" [ref=e7]
+        - link "CADASTRAR / ENTRAR" [ref=e10] [cursor=pointer]:
+          - /url: rotas/login
+    - main [ref=e11]:
+      - generic [ref=e12]:
+        - heading "Campos" [level=1] [ref=e14]: Campos
+        - generic [ref=e16]:
+          - generic [ref=e17]:
+            - generic [ref=e18]: Lugar
+            - generic [ref=e19]:
+              - textbox "Digite o nome do lugar" [ref=e20]
+              - img [ref=e21]
+          - generic [ref=e24]:
+            - generic [ref=e25]: Onde
+            - combobox [ref=e26]:
+              - option "Digite sua cidade" [selected]
+              - option "São Paulo"
+              - option "Rio de Janeiro"
+          - generic [ref=e27]:
+            - generic [ref=e28]: Tipo do campo
+            - combobox [ref=e29]:
+              - option "selecione o tipo" [selected]
+              - option "Society"
+              - option "Futsal"
+              - option "Vôlei"
+              - option "Basquete"
+              - option "Tênis"
+              - option "Beach Tennis"
+              - option "Padel"
+              - option "Outros"
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - heading "Society >" [level=2] [ref=e32]
+          - generic [ref=e33]:
+            - link "Society Field A Society Field A São Paulo R$ 50,00 - R$ 70,00" [ref=e34] [cursor=pointer]:
+              - /url: /rotas/campo/1
+              - generic [ref=e35]:
+                - img "Society Field A" [ref=e37]
+                - generic [ref=e38]:
+                  - heading "Society Field A" [level=3] [ref=e39]
+                  - paragraph [ref=e40]: São Paulo
+                  - paragraph [ref=e41]: R$ 50,00 - R$ 70,00
+            - link "Society Field B Society Field B São Paulo R$ 60,00 - R$ 80,00" [ref=e42] [cursor=pointer]:
+              - /url: /rotas/campo/2
+              - generic [ref=e43]:
+                - img "Society Field B" [ref=e45]
+                - generic [ref=e46]:
+                  - heading "Society Field B" [level=3] [ref=e47]
+                  - paragraph [ref=e48]: São Paulo
+                  - paragraph [ref=e49]: R$ 60,00 - R$ 80,00
+        - generic [ref=e50]:
+          - heading "Beach Tennis >" [level=2] [ref=e51]
+          - link "Beach Tennis Court A Beach Tennis Court A Rio de Janeiro R$ 40,00 - R$ 60,00" [ref=e53] [cursor=pointer]:
+            - /url: /rotas/campo/3
+            - generic [ref=e54]:
+              - img "Beach Tennis Court A" [ref=e56]
+              - generic [ref=e57]:
+                - heading "Beach Tennis Court A" [level=3] [ref=e58]
+                - paragraph [ref=e59]: Rio de Janeiro
+                - paragraph [ref=e60]: R$ 40,00 - R$ 60,00
+  - alert [ref=e61]
+```
